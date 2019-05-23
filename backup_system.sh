@@ -8,7 +8,7 @@ src_boot_device=/dev/mmcblk0p1
 
 green="\e[32;1m"
 normal="\e[0m"
-
+apt-get -y remove vim-common && apt-get -y update && apt-get -y install vim
 echo -e "${green} \n安装必备软件\n ${normal}"
 sudo apt-get install -y dosfstools dump parted kpartx bc
 echo -e "${green} \n软件安装完成\n ${normal}"
