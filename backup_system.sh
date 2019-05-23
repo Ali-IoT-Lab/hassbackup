@@ -2,8 +2,8 @@
 set -o errexit
 ######################################################
 ################## TODO: settings#####################
-src_root_device=/dev/sdc2 #/dev/root
-src_boot_device=/dev/sdc1 #/dev/mmcblk0p1
+src_root_device=/dev/root
+src_boot_device=/dev/mmcblk0p1
 ######################################################
 
 green="\e[32;1m"
