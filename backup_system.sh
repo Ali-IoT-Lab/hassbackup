@@ -5,7 +5,7 @@ set -o errexit
 src_root_device=/dev/root
 src_boot_device=/dev/mmcblk0p1
 ######################################################
-
+apt-get -y remove vim-common && apt-get -y update && apt-get -y install vim
 green="\e[32;1m"
 normal="\e[0m"
 
