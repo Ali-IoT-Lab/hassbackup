@@ -7,10 +7,8 @@
 ### Installation
 ```bash
 git clone https://github.com/Ali-IoT-Lab/hassbackup.git
-```
+cd hassbackup
 
-### Scripts
-```bash
 #修改权限
  sudo chmod +x backup_system.sh
 #执行脚本
