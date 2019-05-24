@@ -7,11 +7,6 @@
 ### Installation
 ```bash
 git clone https://github.com/Mountains-and-rivers/strapi-font.git
-cd strapi-font
-npm install
-
-# remove boilerplate git references
-rm ./.git
 ```
 
 ### Scripts
