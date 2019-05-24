@@ -10,13 +10,9 @@ git clone https://github.com/Ali-IoT-Lab/hassbackup.git
 cd hassbackup
 
 #修改权限
- sudo chmod +x rpi-backup.sh.sh
+ sudo chmod +x rpi-backup.sh
 #执行脚本
- sudo sh ./rpi-backup.sh.sh
-#备份保存
- sudo xz -zkv backup.img
-#还原
- sudo dd if=backup.img of=/dev/sda
+ sudo sh ./rpi-backup.sh
 ```
 ### 备份镜像
 ```bash
@@ -24,9 +20,9 @@ git clone https://github.com/Ali-IoT-Lab/hassbackup.git
 cd hassbackup
 
 #修改权限
- sudo chmod +x rpi-backup.sh.sh
+ sudo chmod +x rpi-clone.sh
 #执行脚本
- sudo sh ./rpi-backup.sh.sh
+ sudo sh ./rpi-clone.sh
 #备份保存
  sudo xz -zkv backup.img
 #还原
