@@ -1,6 +1,6 @@
 ## hassbian系统备份
 
-- 安装homeassisatnt 配置系统 打包成镜像
+- 安装homeassistant 配置系统 打包成镜像
 
 ## Usage
 
