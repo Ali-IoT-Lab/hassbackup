@@ -14,7 +14,7 @@ cd hassbackup
 #执行脚本
  sudo sh ./backup_system.sh
 #备份保存
- xz -zkv backup.img
+ sudo xz -zkv backup.img
 #还原
  sudo dd if=backup.img of=/dev/sda
 ```
